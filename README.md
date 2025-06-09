@@ -1,2 +1,2 @@
-# Vicky_dev.github.io
+# ugmara.github.io
 My personal portfolio site
