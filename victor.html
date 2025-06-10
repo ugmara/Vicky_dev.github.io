@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High converting landingpage</title>
+</head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .nav-container{
+        width: 100%;
+        padding: 3rem;
+    }
+        
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+        background-color: #000000;
+        border-radius: 15px;
+    }
+
+    nav img{
+        width: 50px;
+        background-color: white;
+        padding: 5px;
+        border-radius: 50%;
+    }
+
+    nav ul{
+        display: flex;
+    }
+
+    nav ul li{
+        list-style: none;
+        margin-right: 3rem;
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    .signup-btn a{
+        text-decoration: none;
+        color: #fff;
+        background-color: #333;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    .btn-container{
+        display: flex;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .btn-container a{
+        text-decoration: none;
+    }
+
+   .btn1{
+        background-color: #000;
+        color: #fff;
+        padding: 1.2rem;
+        border-radius: 10px;
+   }
+
+   .btn1:hover{
+        box-shadow: 0 0 5px;
+   }
+
+   .btn2{
+    background-color: #fff;
+        color: black;
+        padding: 1.2rem;
+        border-radius: 10px;
+        box-shadow: inset 0 0 5px;
+   }
+
+   .card-container{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 30px;
+   }
+
+   .card{
+      border: 2px solid black;
+      width: 300px;
+      height: 300px;
+   }
+
+   .card-text{
+     text-align: center;
+     margin-top: 190px;
+     background-color: #000000;
+     height: 15vh;
+   }
+
+   .card-text h2{
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+   }
+
+   .card-text button{
+        padding: 8px;
+        width: 100px;
+        margin-top: 12px;
+        border: none;
+        border-radius: 10px;
+        outline: none;
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        transition: all .8s ease;
+   }
+
+   .card-text button:hover{
+        background-color: #000000;
+        color: #fff;
+        box-shadow: inset 0 0 5px #fff;
+        transform: scale(1.1);
+   }
+
+   .card-text button:active{
+        background-color: red;
+   }
+
+   .fits{
+        display: flex;
+        justify-content: space-around;
+        margin-top: ;
+   }
+
+   .round{
+        border: 1px solid black ;
+        width: 200px;
+        height: 200px;
+   }
+
+</style>
+<body>
+    <div class="nav-container">
+        <nav>
+            <img src="image/reshuffle-removebg-preview.png" alt="">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+    
+            <div class="signup-btn">
+                <a href="#">Sign Up</a>
+            </div>
+        </nav>
+    </div>
+
+        <section class="bg-light text-center py-5">
+            <div class="container pb-5 pt-5">
+                <div class="pb-5 pt-5 row justify-content-center">
+                    <div class="col-lg-9 col-xl-8 ms-auto me-auto pb-5 pt-5">
+                        <span>Loreum ipsum</span>
+                        <h1 class="display-3 fw-bold mb-3">Ug Tech's <br> Page</h1>
+                        <p class="lead mb-4">High converting landing page</p>
+                        <div class="btn-container mt-5">
+                            <a class="btn1 btn-lg" href="">Learn more</a>
+                            <a class="btn2 btn-lg" href="">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+
+        <section class="card-container">
+            <div class="card">
+                <div class="card-text">
+                    <h2>Learn more</h2>
+                    <button>click</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-text">
+                    <h2>Learn more</h2>
+                    <button>click</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-text">
+                    <h2>Learn more</h2>
+                    <button>click</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="fits">
+            <div class="round"> </div>
+            <div class="round"> </div>
+            <div class="round"> </div>
+        </section>
+</body>
+
+</html>

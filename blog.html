@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <title>Victor's Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">← Back to Portfolio</a>
+    </div>
+  </nav>
+
+  <header class="blog-header" data-aos="fade-down">
+    <div class="container">
+      <h1 class="display-4">Victor's Tech Blog</h1>
+      <p class="lead">Thoughts, tips & tutorials on frontend development</p>
+    </div>
+  </header>
+
+  <main class="container py-5">
+    <div class="blog-anchor mb-5">
+      <a href="#js-love" class="btn btn-outline-primary">JavaScript</a>
+      <a href="#css-tricks" class="btn btn-outline-primary">CSS</a>
+    </div>
+
+    <div id="js-love" class="blog-post" data-aos="fade-up">
+      <h2>Why I Love JavaScript</h2>
+      <p>JavaScript is the engine behind dynamic websites. It gives life to your frontend, makes pages interactive, and powers frameworks like React.</p>
+      <p>I started learning it with small click events and now I build full SPAs and fetch APIs. It’s the most empowering language I’ve used.</p>
+    </div>
+
+    <div id="css-tricks" class="blog-post" data-aos="fade-up" data-aos-delay="100">
+      <h2>My Favorite CSS Tricks</h2>
+      <p>CSS can feel like magic when you master it. One of my favorites is using <code>clamp()</code> for responsive font sizes. I also love using Flexbox and Grid for layouts.</p>
+      <p>Adding custom scroll behavior, theme transitions with CSS variables, and slick hover effects really makes a site stand out.</p>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-white text-center py-4">
+    <small>© 2025 Victor | Frontend Dev & Tech Enthusiast</small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>

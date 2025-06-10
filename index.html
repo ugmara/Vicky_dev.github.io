@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Victor | Dev Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top shadow">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Victor.dev</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+<li class="nav-item"><a class="nav-link" href="#log">Log</a></li>
+          <li class="nav-item">
+            <button class="btn btn-outline-light btn-sm ms-3" id="themeToggle">🌓</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero d-flex align-items-center justify-content-center text-center" id="hero">
+    <div>
+      <h1 data-aos="fade-up">Hi, I'm Victor</h1>
+      <p data-aos="fade-up" data-aos-delay="200">Frontend Developer & Tech Enthusiast</p>
+      <a href="#projects" class="btn btn-primary mt-3" data-aos="fade-up" data-aos-delay="300">View Projects</a>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="section" data-aos="fade-right">
+    <div class="container">
+      <h2 class="text-center mb-4">About Me</h2>
+      <p class="text-center">I'm a self-taught developer who loves building sleek, responsive websites and learning new tech. I specialize in HTML, CSS, JavaScript, PHP, and Bootstrap.</p>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section bg-light text-dark" data-aos="fade-up">
+    <div class="container">
+      <h2 class="text-center mb-4">Projects</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="100">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Portfolio Site</h5>
+              <p class="card-text">A personal site built with HTML, CSS, and Bootstrap.</p>
+              <a href="#" class="btn btn-sm btn-outline-primary">Preview</a>
+            </div>
+          </div>
+        </div>
+        <!-- Add more project cards as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section text-light bg-dark" data-aos="fade-up">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Me</h2>
+      <p class="text-center">Email: ugmara63@gmail.com | GitHub: <a href="https://github.com/ugmara" class="text-info">ugmara</a></p>
+    </div>
+  </section>
+
+   <!-- Blog -->
+<section id="blog" class="section bg-dark text-light" data-aos="fade-up">
+  <div class="container">
+    <h2 class="text-center mb-4">Latest Blog Posts</h2>
+    <div class="row">
+      <div class="col-md-6 mb-4" data-aos="fade-right">
+        <div class="card bg-secondary text-light shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Why I Love JavaScript</h5>
+            <p class="card-text">A short dive into how I use JS to build interactive and responsive sites.</p>
+            <a href="blog.html#js-love" class="btn btn-read-more  btn-outline-light btn-sm">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4" data-aos="fade-left">
+        <div class="card bg-secondary text-light shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">My Favorite CSS Tricks</h5>
+            <p class="card-text">Tips and tricks to make your site look clean and responsive using CSS & Bootstrap.</p>
+           <a href="blog.html#css-tricks" class= "btn btn-read-more btn-outline-light btn-sm">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Dev Log -->
+<section id="log" class="section bg-light text-dark" data-aos="fade-up">
+  <div class="container">
+    <h2 class="text-center mb-4">Dev Log</h2>
+    <ul class="timeline">
+      <li data-aos="fade-up">
+        <span class="date">June 1, 2025</span>
+        <p>Created initial portfolio layout with Bootstrap and animations.</p>
+      </li>
+      <li data-aos="fade-up" data-aos-delay="100">
+        <span class="date">June 5, 2025</span>
+        <p>Added dark/light mode, sidebar nav, and AOS library.</p>
+      </li>
+      <li data-aos="fade-up" data-aos-delay="200">
+        <span class="date">June 9, 2025</span>
+        <p>Expanded portfolio with blog and dev log sections.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- Loader Overlay -->
+<div id="page-loader" style="display:none;position:fixed;top:0;left:0;width:100vw;height:100vh;background-color:#0009;z-index:9999;justify-content:center;align-items:center;">
+  <div class="spinner-border text-light" role="status" style="width:3rem;height:3rem;">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+</div>
+
+
+  <!-- Footer -->
+  <footer class="text-center bg-black text-light py-3">
+    &copy; 2025 Victor | All rights reserved.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+  <script src="loader.js"></script>
+</body>
+</html>
